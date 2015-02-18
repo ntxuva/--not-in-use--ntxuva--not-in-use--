@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * HTML template for Mark-a-Spot
+ * HTML template for Ntxuva
  */
 ?>
 <!DOCTYPE html>

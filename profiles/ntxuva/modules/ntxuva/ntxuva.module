@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the masReport feature.
+ * Code for the MopaReport feature.
  */
 
 include_once 'ntxuva.features.inc';

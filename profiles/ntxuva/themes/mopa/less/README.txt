@@ -26,7 +26,7 @@ specifying specific styling for your sites configuration.
 ./less/footer.less
 ```
 
-And finally, the `./less/mas-style.less` file is the glue that holds it all
+And finally, the `./less/mopa-style.less` file is the glue that holds it all
 together and compiles everything into one file. Generally, you will not need
 to modify this file unless you need to add or remove imported files. For
 example, if you do not want your site to have responsive capabilities, free to

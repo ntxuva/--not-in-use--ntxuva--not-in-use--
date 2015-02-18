@@ -1,0 +1,4 @@
+name = Ntxuva Logging
+package = "Ntxuva"
+core = 7.x
+description = Provides a logging block for civic and administrative activity on reports

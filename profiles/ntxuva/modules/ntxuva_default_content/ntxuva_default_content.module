@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ntxuva Default Content feature.
+ */
+
+include_once 'ntxuva_default_content.features.inc';

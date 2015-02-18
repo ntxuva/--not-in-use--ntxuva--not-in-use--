@@ -1,0 +1,6 @@
+name = Ntxuva Archive
+description = Provides cron to archive reports automatically
+package = "Ntxuva"
+core = "7.x"
+
+dependencies[] = "ntxuva_logic"

@@ -1,0 +1,4 @@
+name = Ntxuva Logic
+package = "Ntxuva"
+core = 7.x
+description = Provides styles, scripts and views for Ntxuva Installation

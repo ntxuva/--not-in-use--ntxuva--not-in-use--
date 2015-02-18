@@ -15,7 +15,7 @@ define('CONFIG_FILE', 'simple-php-proxy_config.php');
 
 $dest_host = "bash.org";
 
-$proxy_base_url = '/profiles/markaspot/libraries/proxy';
+$proxy_base_url = '/profiles/ntxuva/libraries/proxy';
 
 $proxied_headers = array('Set-Cookie', 'Content-Type', 'Cookie', 'Location');
 

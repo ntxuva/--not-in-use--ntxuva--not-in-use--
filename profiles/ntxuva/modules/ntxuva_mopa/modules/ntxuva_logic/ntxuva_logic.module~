@@ -629,7 +629,7 @@ function ntxuva_logic_defaults($id) {
       return 'Cidade de Maputo, Maputo';
 
     case 'ntxuva_logic_country':
-      return 'Moçambique';
+      return 'Deutschland';
 
     case 'ntxuva_logic_twittername':
       return '@mopacity';
@@ -638,16 +638,16 @@ function ntxuva_logic_defaults($id) {
       return '1';
 
     case 'ntxuva_logic_bbox_nw_lat':
-      return '-25.820207628186903';
+      return '50.8463';
 
     case 'ntxuva_logic_bbox_nw_lng':
-      return '32.50236511230469';
+      return '6.832';
 
     case 'ntxuva_logic_bbox_se_lat':
-      return '-25.992612489709174';
+      return '50.8042';
 
     case 'ntxuva_logic_bbox_se_lng':
-      return '32.703895568847656';
+      return '6.937';
 
     case 'ntxuva_logic_archive_days':
       return '30';

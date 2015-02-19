@@ -438,8 +438,8 @@ function ntxuva_mopa_field_default_field_instances() {
         'address' => array(
           'field' => 'Praça dos Heróis Moçambicanos, Cidade de Maputo',
         ),
-        'lat' => '-25.933830866465886',
-        'lng' => '32.57938742637634',
+        'lat' => '-25.933618',
+        'lng' => '32.579526',
       ),
     ),
     'deleted' => 0,

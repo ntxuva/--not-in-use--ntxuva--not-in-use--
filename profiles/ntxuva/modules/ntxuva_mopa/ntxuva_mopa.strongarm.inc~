@@ -512,7 +512,7 @@ function ntxuva_mopa_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ntxuva_open311_client_bbox';
-  $strongarm->value = '-25.8,32.5,-26.1,32.8';
+  $strongarm->value = '50.8,6.9,50.4,7.7';
   $export['ntxuva_open311_client_bbox'] = $strongarm;
 
   $strongarm = new stdClass();

@@ -14,28 +14,28 @@ function _ntxuva_create_status($operation, &$context) {
 
   // Define the terms, with description and color:
   $terms[0] = array(
-    'Novos',
+    'Open',
     'This is just a description which should be replaced',
     '#FF0000',
     'pause',
     'ntxuva-font',
   );
   $terms[1] = array(
-    'Em progresso',
+    'In progress',
     'This is just a description which should be replaced',
     '#FFA500',
     'play',
     'ntxuva-font',
   );
   $terms[3] = array(
-    'Resolvidos',
+    'Solved',
     'This is just a description which should be replaced',
     '#008000',
     'checkmark',
     'ntxuva-font',
   );
   $terms[4] = array(
-    'Arquivados',
+    'Archive',
     'This is just a description which should be replaced',
     '#5F9EA0',
     'drawer',
@@ -182,7 +182,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Avenida 25 de Setembro,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Contentor a Arder',
-    'Novos',
+    'Open',
     'flickr_by_dancentury_garbage_collection_4585329947',
   );
 
@@ -194,7 +194,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Avenida Emilia Dausse,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Lixo fora do contentor',
-    'Novos',
+    'Open',
     'flickr_by_striatic_grafitti_133146861',
   );
 
@@ -206,7 +206,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Rua Augusto Macamo,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Camião não recolheu o contentor',
-    'Resolvidos',
+    'Solved',
     'flickr_thomopabrandt',
   );
 
@@ -218,7 +218,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Rua Primeiro de Maio,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Tchova não passou',
-    'Em progresso',
+    'In progress',
     'flickr_jjnf_baustellenlage_ebertplatz',
   );
 
@@ -230,7 +230,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Avenida Julius Nyerere,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Camião não recolheu o contentor',
-    'Arquivados',
+    'Archive',
     'flickr_by_mikebaird_abandoned_car_4585329947',
   );
 
@@ -242,7 +242,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'Avenida Agostinho Neto,  Cidade de Maputo',
     'jjnf@ntxuva.org',
     'Contentor a Arder',
-    'Resolvidos',
+    'Solved',
     'flickr_by_realname_garbage-tonal-decay',
   );
 

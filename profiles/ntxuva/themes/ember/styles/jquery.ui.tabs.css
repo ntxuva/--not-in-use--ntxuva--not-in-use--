@@ -32,13 +32,10 @@
   text-decoration: none;
 }
 .ui-tabs-nav a, .ui-tabs-nav a:link, .ui-tabs-nav a:visited {
-  color: #999999;
+  color: #848484;
 }
 .ui-tabs-nav a:active, .ui-tabs-nav a.active, .ui-tabs-nav a:hover {
   color: #333333;
-}
-.ui-tabs-nav a:hover {
-  text-decoration: none;
 }
 
 .ui-tabs-nav li {

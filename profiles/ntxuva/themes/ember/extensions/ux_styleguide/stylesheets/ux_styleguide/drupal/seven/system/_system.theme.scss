@@ -158,41 +158,54 @@ td.active {
 fieldset {
   &.collapsible {
     .fieldset-legend {
-      &:after {
-        position: relative;
-        top: (($line-height - 1em) / 2);
+      margin: 0;
+      @include single-transition(margin, .2s);
+
+      &:before {
+        content: "";
         display: inline-block;
-        content: '\2303';
-        color: $color-link-alternate;
-        @include transition(top .2s, transform .2s);
-      }
-    }
-  }
+        @include box-sizing(border-box);
+        position: relative;
+        width: .6em;
+        height: .6em;
+        margin: .1em 0;
+        border: {
+          width: .1em;
+          style: solid;
+        }
 
-  &.collapsed {
-    .fieldset-legend {
-      &:after {
-        top: -(($line-height - 1em) / 2);
-        @include scaleY(-1);
-      }
-    }
-  }
+        [dir="ltr"] & {
+          float: left;
+          margin-left: -1.2em;
+          border-color: transparent $color-link-alternate $color-link-alternate transparent;
+        }
 
-  html.js[dir="ltr"] & {
-    &.collapsible {
-      .fieldset-legend {
-        &:after {
-          margin-right: $rhythm-space-short;
+        [dir="rtl"] & {
+          float: right;
+          margin-right: -1.2em;
+          border-color: transparent transparent $color-link-alternate $color-link-alternate;
         }
       }
     }
   }
 
-  html.js[dir="rtl"] & {
-    &.collapsible {
-      .fieldset-legend {
-        &:after {
-          margin-left: $rhythm-space-short;
+  &.collapsed {
+    [dir="ltr"] & {
+      border-left-width: 1px;
+    }
+
+    [dir="rtl"] & {
+      border-right-width: 1px;
+    }
+
+    .fieldset-legend {
+      &:before {
+        [dir="ltr"] & {
+          @include rotate(-45deg);
+        }
+
+        [dir="rtl"] & {
+          @include rotate(45deg);
         }
       }
     }
@@ -204,14 +217,18 @@ fieldset {
     color: $color-text-light;
     font-size: $font-size-small;
 
-    /*[dir="ltr"] & {
+    [dir="ltr"] & {
       margin-left: $rhythm-space-short;
     }
 
     [dir="rtl"] & {
       margin-right: $rhythm-space-short;
-    }*/
+    }
   }
+}
+
+.fieldset-title:hover {
+  text-decoration: none;
 }
 
 /**

@@ -48,8 +48,8 @@
           street      = street ? street : result.address.footway;
 
 // Updates Maputo psms
-          var suburb = result.address.suburb ? result.address.suburb : "";
-          var city_district = result.address.city_district ? result.address.city_district : "";
+//          var suburb = result.address.suburb ? result.address.suburb : "";
+//          var city_district = result.address.city_district ? result.address.city_district : "";
 //
           var city = result.address.city ? result.address.city : "";
           city = city ? city : result.address.village;
@@ -61,17 +61,17 @@
           var postcode    = result.address.postcode ? result.address.postcode : "";
 
           // Need Adress switch for geocoding
-          //var address = street + ', ' + postcode + ' ' + city;
-          var address = street + ', ' + postcode + ' ' + suburb + ', ' + city_district + ', ' + city;
+          var address = street + ', ' + postcode + ' ' + city;
+//          var address = street + ', ' + postcode + ' ' + suburb + ', ' + city_district + ', ' + city;
 
 // Updates Maputo psms
-          var neighbourhood = suburb + ', ' + city_district;
+//          var neighbourhood = suburb + ', ' + city_district;
 
 // Writes neighbourhood field
 
           // document.getElementById("edit-field-neighbourhood-und-0-value").disabled = false;
-          $('#edit-field-neighbourhood-und-0-value').val(neighbourhood);
-          document.getElementById("edit-field-neighbourhood").style.visibility = "hidden";
+//          $('#edit-field-neighbourhood-und-0-value').val(neighbourhood);
+//          document.getElementById("edit-field-neighbourhood").style.visibility = "hidden";
 
           $('#edit-field-geo-und-0-address-field').val(address);
           // Drupal.geolocation.maps[i].setView(new L.LatLng(result.lat, result.lon));

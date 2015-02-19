@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Page template for Ntxuva
+ * Page template for Ntxuva-Mopa
  */
 ?>
 <header role="banner" id="page-header" class="container">

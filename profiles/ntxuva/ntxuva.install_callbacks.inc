@@ -171,7 +171,7 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.8212596',
     '6.8961028',
     'Pingsdorfer Straße 88, 50321 Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Litter Basket Complaint',
     'Open',
     'flickr_by_dancentury_garbage_collection_4585329947',
@@ -183,7 +183,7 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.81812812677597',
     '6.8905774494293155',
     'Am Ringofen 21, 50321 Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Graffiti Report',
     'Open',
     'flickr_by_striatic_grafitti_133146861',
@@ -195,10 +195,10 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.82435019881909',
     '6.895512714016718',
     'Liblarer Straße 88, 50321, Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Abandoned Cars',
     'Solved',
-    'flickr_thomasbrandt',
+    'flickr_thomopabrandt',
   );
 
   $nodes[3] = array(
@@ -207,10 +207,10 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.8282131596655',
     '6.90819419823913',
     'Promenade, 50321 Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Building Construction Complaint',
     'In progress',
-    'flickr_holger_baustellenlage_ebertplatz',
+    'flickr_jjnf_baustellenlage_ebertplatz',
   );
 
   $nodes[4] = array(
@@ -219,7 +219,7 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.8327211',
     '6.9032226',
     'Friedrichstraße 23 50321 Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Abandoned Cars',
     'Archive',
     'flickr_by_mikebaird_abandoned_car_4585329947',
@@ -231,7 +231,7 @@ function _ntxuva_create_reports($operation, &$context) {
     '50.826873',
     ' 6.900167',
     'Centre, 50321 Brühl',
-    'holger@ntxuva.org',
+    'jjnf@ntxuva.org',
     'Litter Basket Complaint',
     'Solved',
     'flickr_by_realname_garbage-tonal-decay',
@@ -290,14 +290,14 @@ function _ntxuva_create_pages($operation, &$context) {
   // Now creating articles:
   $nodes[0] = array(
     'Open311',
-    '<p> <img src="/profiles/ntxuva/themes/mopa/images/open311georeportv2-type1.png" alt="Open311 Logo" style="width:300px; margin: 0 0 0 10px; height:114px;float:right"> Open311 is a form of technology that provides open channels of communication for issues that concern public space and public services. Primarily, Open311 refers to a standardized protocol for location-based collaborative issue-tracking. </p> <p> By offering free web API access to an existing 311 service, Open311 is an evolution of the phone-based 311 systems that many cities in North America offer. [taken from <a href="http://open311.org/learn/"> Open311 Learn </a>] </p> <p> Ntxuva comes with a built-in GeoReport Server. See how it works: </p> <h3>Services</h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Provide a list of acceptable 311 service request types and their associated service codes. These request types can be unique to the city/jurisdiction. </td> </tr> <tr> <th scope="row"> URL </th> <td><a href="' . $base_url . '/georeport/v2/services.xml">' . $base_url . '/georeport/v2/services.[format]</a></td> </tr> <tr> <th scope="row"> Sample URL </th> <td> <a href="' . $base_url . '/georeport/v2/services.xml"> ' . $base_url . '/georeport/v2/services.xml </a> </td> </tr> <tr> <th scope="row"> Formats </th> <td> XML / JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table> <h3> Requests </h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Query the current status of multiple requests </td> </tr> <tr> <th scope="row"> URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests.json"> ' . $base_url . '/georeport/v2/requests.[format] </a> </td> </tr> <tr> <th scope="row"> Sample URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests.json?start_date=' . date("Y-n-j") . '"> ' . $base_url . '/georeport/v2/requests.json?start_date=' . date("Y-n-j") . '... </a> </td> </tr> <tr> <th scope="row"> Formats </th> <td> XML, JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table> <h4> Optionale Parameter </h4> <table class="spec-table arguments-table"> <tbody> <tr> <th> Field Name </th> <th class="spec-description"> Description </th> <th class="spec-requirements"> Notes &amp; Requirements </th> </tr> <tr> <td class="field"> <dl> <dt> service_code <br/> </dt> </dl> </td> <td> Specify the service type by calling the unique ID of the service_code. </td> <td> This defaults to all service codes when not declared; can be declared multiple times, comma delimited </td> </tr> <tr> <td class="field"> <dl> <dt> start_date <br/> </dt> </dl> </td> <td> Earliest datetime to include in search. When provided with end_date, allows one to search for requests which have a requested_datetime that matches a given range, but may not span more than 90 days. </td> <td> When not specified, the range defaults to most recent 90 days. Must use w3 format, eg 2010-01-01T00:00:00Z. </td> </tr> <tr> <td class="field"> <dl> <dt> end_date <br/> </dt> </dl> </td> <td> Latest datetime to include in search. When provided with start_date, allows one to search for requests which have a requested_datetime that matches a given range, but may not span more than 90 days. </td> <td> When not specified, the range defaults to most recent 90 days. Must use w3 format, eg 2010-01-01T00:00:00Z. </td> </tr> <tr> <td class="field"> <dl> <dt> status <br/> </dt> </dl> </td> <td> Allows one to search for requests which have a specific status. This defaults to all statuses; can be declared multiple times, comma delimited; </td> <td> Options: <span class="strict-value"> open </span> , <span class="strict-value"> closed </span> </td> </tr> </tbody> </table> <h3> Single Request </h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Query the current status of an individual request </td> </tr> <tr> <th scope="row"> URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests/2.xml"> ' . $base_url . '/georeport/v2/request/#ID.[format] </a> </td> </tr> <tr> <th scope="row"> Sample URL </th> <td><a href="' . $base_url . '/georeport/v2/requests/' . variable_get('node_uuid') . '.json">' . $base_url . '/georeport/v2/requests/' . variable_get('node_uuid') . '.json</a></td> </tr> <tr> <th scope="row"> Formats </th> <td> XML, JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table>',
+    '<p> <img src="/profiles/ntxuva/themes/mopa/images/open311georeportv2-type1.png" alt="Open311 Logo" style="width:300px; margin: 0 0 0 10px; height:114px;float:right"> Open311 is a form of technology that provides open channels of communication for issues that concern public space and public services. Primarily, Open311 refers to a standardized protocol for location-based collaborative issue-tracking. </p> <p> By offering free web API access to an existing 311 service, Open311 is an evolution of the phone-based 311 systems that many cities in North America offer. [taken from <a href="http://open311.org/learn/"> Open311 Learn </a>] </p> <p> Ntxuva-Mopa comes with a built-in GeoReport Server. See how it works: </p> <h3>Services</h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Provide a list of acceptable 311 service request types and their associated service codes. These request types can be unique to the city/jurisdiction. </td> </tr> <tr> <th scope="row"> URL </th> <td><a href="' . $base_url . '/georeport/v2/services.xml">' . $base_url . '/georeport/v2/services.[format]</a></td> </tr> <tr> <th scope="row"> Sample URL </th> <td> <a href="' . $base_url . '/georeport/v2/services.xml"> ' . $base_url . '/georeport/v2/services.xml </a> </td> </tr> <tr> <th scope="row"> Formats </th> <td> XML / JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table> <h3> Requests </h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Query the current status of multiple requests </td> </tr> <tr> <th scope="row"> URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests.json"> ' . $base_url . '/georeport/v2/requests.[format] </a> </td> </tr> <tr> <th scope="row"> Sample URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests.json?start_date=' . date("Y-n-j") . '"> ' . $base_url . '/georeport/v2/requests.json?start_date=' . date("Y-n-j") . '... </a> </td> </tr> <tr> <th scope="row"> Formats </th> <td> XML, JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table> <h4> Optionale Parameter </h4> <table class="spec-table arguments-table"> <tbody> <tr> <th> Field Name </th> <th class="spec-description"> Description </th> <th class="spec-requirements"> Notes &amp; Requirements </th> </tr> <tr> <td class="field"> <dl> <dt> service_code <br/> </dt> </dl> </td> <td> Specify the service type by calling the unique ID of the service_code. </td> <td> This defaults to all service codes when not declared; can be declared multiple times, comma delimited </td> </tr> <tr> <td class="field"> <dl> <dt> start_date <br/> </dt> </dl> </td> <td> Earliest datetime to include in search. When provided with end_date, allows one to search for requests which have a requested_datetime that matches a given range, but may not span more than 90 days. </td> <td> When not specified, the range defaults to most recent 90 days. Must use w3 format, eg 2010-01-01T00:00:00Z. </td> </tr> <tr> <td class="field"> <dl> <dt> end_date <br/> </dt> </dl> </td> <td> Latest datetime to include in search. When provided with start_date, allows one to search for requests which have a requested_datetime that matches a given range, but may not span more than 90 days. </td> <td> When not specified, the range defaults to most recent 90 days. Must use w3 format, eg 2010-01-01T00:00:00Z. </td> </tr> <tr> <td class="field"> <dl> <dt> status <br/> </dt> </dl> </td> <td> Allows one to search for requests which have a specific status. This defaults to all statuses; can be declared multiple times, comma delimited; </td> <td> Options: <span class="strict-value"> open </span> , <span class="strict-value"> closed </span> </td> </tr> </tbody> </table> <h3> Single Request </h3> <table class="spec-table"> <tbody> <tr> <th scope="row"> Purpose </th> <td> Query the current status of an individual request </td> </tr> <tr> <th scope="row"> URL </th> <td> <a href="' . $base_url . '/georeport/v2/requests/2.xml"> ' . $base_url . '/georeport/v2/request/#ID.[format] </a> </td> </tr> <tr> <th scope="row"> Sample URL </th> <td><a href="' . $base_url . '/georeport/v2/requests/' . variable_get('node_uuid') . '.json">' . $base_url . '/georeport/v2/requests/' . variable_get('node_uuid') . '.json</a></td> </tr> <tr> <th scope="row"> Formats </th> <td> XML, JSON </td> </tr> <tr> <th scope="row"> HTTP Method </th> <td> GET </td> </tr> <tr> <th scope="row"> Requires API Key </th> <td> No </td> </tr> </tbody> </table>',
     'slider_2',
   );
 
   // Now creating initial report:
   $nodes[1] = array(
     'About this platform',
-    '<p>This platform is based on <a href="http://ntxuva.de/en">Ntxuva</a>, a Drupal distribution for public issue reporting or other geobased crowdsourcing.</p> <p>This text can be easily changed and <a href="?q=node/8/edit">customized</a>. If you feel like giving attribution, please leave a link to <a href="http://ntxuva.org">ntxuva.org</a> somewhere.</p> <p>If you need any help with customizing this platform, like theming, extending or even integrating it in your SOA infrastructure, please <a href="http://ntxuva.de/en/contact">get in touch with us</a>.</p> <h3>Photo credits</h3> <ul> <li>Garbage Collection by Dan Century (Flickr)</li> <li>Garbage Collection by Tonal Decay (Flickr)</li> <li>Abandoned Car by Mike Baird (Flickr)</li> <li>Abandoned Car by Thomas Brandt (Flickr)</li> <li>Graffiti by striatic (Flickr)</li> <li>River Tree by Astonishing / photocase.com</li> </ul>',
+    '<p>This platform is based on <a href="http://ntxuva.de/en">Ntxuva-Mopa</a>, a Drupal distribution for public issue reporting or other geobased crowdsourcing.</p> <p>This text can be easily changed and <a href="?q=node/8/edit">customized</a>. If you feel like giving attribution, please leave a link to <a href="http://mark-a-spot.org">mark-a-spot.org</a> somewhere.</p> <p>If you need any help with customizing this platform, like theming, extending or even integrating it in your SOA infrastructure, please <a href="http://ntxuva.de/en/contact">get in touch with us</a>.</p> <h3>Photo credits</h3> <ul> <li>Garbage Collection by Dan Century (Flickr)</li> <li>Garbage Collection by Tonal Decay (Flickr)</li> <li>Abandoned Car by Mike Baird (Flickr)</li> <li>Abandoned Car by Thomopa Brandt (Flickr)</li> <li>Graffiti by striatic (Flickr)</li> <li>River Tree by Astonishing / photocase.com</li> </ul>',
     'slider_1',
   );
 

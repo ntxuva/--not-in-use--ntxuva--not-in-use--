@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Enables modules and site configuration for a Ntxuva installation.
+ * Enables modules and site configuration for a Ntxuva-Mopa installation.
  */
 
 /**
@@ -389,10 +389,10 @@ function ntxuva_enable_icon_api(){
 
 
 function ntxuva_install_finished(){
-  drupal_set_title(st('Ntxuva installation complete'));
+  drupal_set_title(st('Ntxuva-Mopa installation complete'));
   $messages = drupal_set_message();
 
-  $output  = '<p>' . st('Congratulations, you installed Ntxuva @drupal!', array('@drupal' => drupal_install_profile_distribution_name())) . '</p>';
+  $output  = '<p>' . st('Congratulations, you installed Ntxuva-Mopa @drupal!', array('@drupal' => drupal_install_profile_distribution_name())) . '</p>';
   $output .= '<p>' . (isset($messages['error']) ? st('Review the messages above before visiting <a href="@url">your new site</a>.', array('@url' => url(''))) : st('<a href="@url">Visit your new site</a>.', array('@url' => url('')))) . '</p>';
 
   // Flush all caches to ensure that any full bootstraps during the installer
@@ -701,7 +701,7 @@ function ntxuva_update_7210() {
 
 
 /**
- * Revert Ntxuva feature for use of Search API as backend.
+ * Revert Ntxuva-Mopa feature for use of Search API as backend.
  *
  */
 function ntxuva_update_7211(){
@@ -711,10 +711,10 @@ function ntxuva_update_7211(){
     throw new DrupalUpdateException(t('Search API and Search API db have to be installed to run updates'));
   } else {
     cache_clear_all();
-    features_revert(array('ntxuva' => array('field_base', 'field_instance')));
-    features_revert(array('ntxuva' => array('views_default')));
-    features_revert(array('ntxuva' => array('search_api_server')));
-    features_revert(array('ntxuva' => array('search_api_index')));
+    features_revert(array('ntxuva_mopa' => array('field_base', 'field_instance')));
+    features_revert(array('ntxuva_mopa' => array('views_default')));
+    features_revert(array('ntxuva_mopa' => array('search_api_server')));
+    features_revert(array('ntxuva_mopa' => array('search_api_index')));
 
     cache_clear_all();
 

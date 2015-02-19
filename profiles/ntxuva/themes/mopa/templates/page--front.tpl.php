@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Front page template for Ntxuva
+ * Front page template for Ntxuva-Mopa
  */
 ?>
 <header role="banner" id="page-header" class="container">
@@ -57,7 +57,7 @@
   <a id="start" title="<?php t('Click to get the map view')?>" href="/map"></a>
   <div id="map" class="front"></div>
 </div>
-<div class="mapheader masthead">
+<div class="mapheader mopathead">
   <div class="container stage">
     <div>
       <div class="col-md-7">

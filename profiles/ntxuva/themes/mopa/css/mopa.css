@@ -810,7 +810,7 @@ div#edit-field-geo-und-0-address label{
 }
 
 .geolocation-help:before {
-  font-family: 'Ntxuva';
+  font-family: 'Markaspot';
   font-size: 30px;
   color: #888;
   font-style: normal;
@@ -889,7 +889,7 @@ div#medialink {
   padding: 0px 0;
 }
 
-.navbar-icon-ntxuva:before {
+.navbar-icon-mark-a-spot:before {
   background-image: url(../../../themes/mopa/images/logo-small.png);
 }
 

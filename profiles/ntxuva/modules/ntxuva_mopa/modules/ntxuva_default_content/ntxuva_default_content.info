@@ -1,0 +1,12 @@
+name = Ntxuva-Mopa Default Content
+package = "Ntxuva-Mopa"
+description = Blocks and default content
+core = "7.x"
+
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

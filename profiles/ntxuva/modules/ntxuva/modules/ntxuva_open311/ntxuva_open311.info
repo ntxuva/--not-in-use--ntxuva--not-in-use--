@@ -1,5 +1,0 @@
-name = Ntxuva Open311 Server
-description = provides resources for an Open 311 endpoint
-package = "Ntxuva"
-core = "7.x"
-dependencies[] = "services"

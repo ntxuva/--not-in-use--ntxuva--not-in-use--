@@ -1,6 +1,0 @@
-name = Ntxuva Icon
-package = "Ntxuva"
-description = Ntxuva Icon formatter
-
-core = "7.x"
-

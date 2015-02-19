@@ -1,0 +1,13 @@
+name = Ntxuva-Mopa Font icon library
+description = Integrates the ntxuva icomoon font for Icon API.
+core = 7.x
+configure = admin/config/media/icons
+package = Ntxuva-Mopa
+
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

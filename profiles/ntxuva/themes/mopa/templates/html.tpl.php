@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * HTML template for Ntxuva
+ * HTML template for Ntxuva-Mopa
  */
 ?>
 <!DOCTYPE html>

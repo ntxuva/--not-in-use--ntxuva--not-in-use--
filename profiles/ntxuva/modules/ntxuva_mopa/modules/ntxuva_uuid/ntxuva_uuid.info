@@ -1,0 +1,14 @@
+name = Ntxuva-Mopa UUID
+package = "Ntxuva-Mopa"
+description = Provides Open311 service names as automatic node titles and human readable UUIDs for issue numbers
+core = "7.x"
+
+dependencies[] = uuid
+
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

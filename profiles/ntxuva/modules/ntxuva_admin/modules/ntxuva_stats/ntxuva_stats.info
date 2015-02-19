@@ -1,4 +1,0 @@
-name = Ntxuva Stats Module
-package = "Ntxuva"
-description = Provides a Stats block for civic and administrative activity on reports
-core = "7.x"

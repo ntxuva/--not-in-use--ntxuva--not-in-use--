@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Ntxuva-Log feature.
- */
-
-include_once 'ntxuva_log.features.inc';

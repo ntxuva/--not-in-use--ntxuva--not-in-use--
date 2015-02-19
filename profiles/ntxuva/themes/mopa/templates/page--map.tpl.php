@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Map page template for Ntxuva
+ * Map page template for Ntxuva-Mopa
  */
 ?>
 <div class="navbar-wrapper">

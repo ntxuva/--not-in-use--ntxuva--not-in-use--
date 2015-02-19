@@ -1,4 +1,0 @@
-name = Ntxuva Static GeoJSON file Generator
-description = generates static geojson file in /geojson/All.geojson
-package = "Ntxuva"
-core = "7.x"

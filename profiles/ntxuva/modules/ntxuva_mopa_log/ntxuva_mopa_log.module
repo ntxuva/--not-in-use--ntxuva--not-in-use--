@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ntxuva-Mopa-Log feature.
+ */
+
+include_once 'ntxuva_mopa_log.features.inc';

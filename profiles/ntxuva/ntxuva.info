@@ -1,4 +1,4 @@
-name = Ntxuva
+name = Ntxuva-Mopa
 description = Install with commonly used features pre-configured.
 exclusive = TRUE
 
@@ -35,15 +35,22 @@ dependencies[] = field_formatter_class
 dependencies[] = field_formatter_css_class
 dependencies[] = bootstrap_fieldgroup
 dependencies[] = better_exposed_filters
-dependencies[] = ntxuva
+dependencies[] = ntxuva_mopa
 dependencies[] = ntxuva_uuid
 dependencies[] = ntxuva_radar
 dependencies[] = ntxuva_open311_client
-dependencies[] = ntxuva_admin
-dependencies[] = ntxuva_default_content
-dependencies[] = ntxuva_log
+dependencies[] = ntxuva_mopa_admin
+dependencies[] = ntxuva_mopa_default_content
+dependencies[] = ntxuva_mopa_log
 dependencies[] = twitter
 dependencies[] = geophp
 dependencies[] = views_geojson
 dependencies[] = navbar
 dependencies[] = ckeditor
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

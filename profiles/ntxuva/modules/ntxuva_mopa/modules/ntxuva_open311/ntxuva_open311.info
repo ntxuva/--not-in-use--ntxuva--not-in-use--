@@ -1,0 +1,13 @@
+name = Ntxuva-Mopa Open311 Server
+description = provides resources for an Open 311 endpoint
+package = "Ntxuva-Mopa"
+core = "7.x"
+dependencies[] = "services"
+
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

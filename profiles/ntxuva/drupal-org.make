@@ -142,7 +142,7 @@ libraries[ntxuva-font][directory_name] = ntxuva-font
 
 libraries[fontawesome][type] = "libraries"
 libraries[fontawesome][download][type] = "get"
-libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/master.zip"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/mopater.zip"
 libraries[fontawesome][directory_name] = "fontawesome"
 libraries[fontawesome][destination] = "libraries"
 

@@ -1,8 +1,0 @@
-name = Ntxuva Tweet 311
-description = provides tweet based crowdsourcing for 311 endpoints
-package = "Ntxuva"
-
-dependencies[] = twitter
-
-
-core = "7.x"

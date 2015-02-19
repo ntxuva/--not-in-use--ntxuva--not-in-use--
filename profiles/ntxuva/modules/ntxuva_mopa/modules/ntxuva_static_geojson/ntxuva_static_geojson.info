@@ -1,0 +1,12 @@
+name = Ntxuva-Mopa Static GeoJSON file Generator
+description = generates static geojson file in /geojson/All.geojson
+package = "Ntxuva-Mopa"
+core = "7.x"
+
+
+; Information added by drush on 2015-02-13
+version = "7.x-2.7+20-dev"
+core = "7.x"
+project = "ntxuva"
+datestamp = "1423854221"
+

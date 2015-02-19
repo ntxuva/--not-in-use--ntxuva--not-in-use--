@@ -1,5 +1,0 @@
-name = Ntxuva Font icon library
-description = Integrates the ntxuva icomoon font for Icon API.
-core = 7.x
-configure = admin/config/media/icons
-package = Ntxuva

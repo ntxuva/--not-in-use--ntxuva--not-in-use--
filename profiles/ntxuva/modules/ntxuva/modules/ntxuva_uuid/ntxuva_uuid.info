@@ -1,6 +1,0 @@
-name = Ntxuva UUID
-package = "Ntxuva"
-description = Provides Open311 service names as automatic node titles and human readable UUIDs for issue numbers
-core = "7.x"
-
-dependencies[] = uuid

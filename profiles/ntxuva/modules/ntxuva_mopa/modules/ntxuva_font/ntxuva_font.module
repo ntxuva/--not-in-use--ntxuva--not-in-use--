@@ -6,9 +6,9 @@
  */
 
 define('NTXUVA_FONT_LIBRARY', 'ntxuva-font');
-define('NTXUVA_FONT_NAME', 'Markaspot Font');
+define('NTXUVA_FONT_NAME', 'Ntxuva Font');
 define('NTXUVA_FONT_URL', 'https://github.com/ntxuva/ntxuva-font');
-define('NTXUVA_FONT_DOWNLOAD_URL', 'https://github.com/ntxuva/ntxuva-font/archive/mopater.zip');
+define('NTXUVA_FONT_DOWNLOAD_URL', 'https://github.com/ntxuva/ntxuva-font/archive/master.zip');
 define('NTXUVA_FONT_PREFIX', 'sicon-');
 
 /**

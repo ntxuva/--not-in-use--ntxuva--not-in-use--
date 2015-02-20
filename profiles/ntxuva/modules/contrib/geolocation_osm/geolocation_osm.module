@@ -520,7 +520,7 @@ function geolocation_osm_field_widget_form(&$form, &$form_state, $field, $instan
       $element['help'] = array(
         '#prefix' => '<div id="geolocation-help-' . $id . '" class="geolocation-help">',
         '#suffix' => '</div>',
-        '#markup' => t('Enter an address / location in the textfield or you can also click on the map to set a marker'),
+        '#markup' => t('Clica no mapa para escolheres o local do Report. Se estiveres no local do Report neste momento podes escolher a tua localização actual'),
       );
       $element['osm'] = array(
         '#prefix' => '<div id="geolocation-map-' . $id . '" class="geolocation-map" style="width:100%;height:400px;">',

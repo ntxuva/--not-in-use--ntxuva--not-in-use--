@@ -276,7 +276,7 @@
           // First use browser geolocation.
           if (navigator.geolocation) {
             browserSupportFlag = true;
-            $('#geolocation-help-' + i + ':not(.geolocation-osm-osm-processed)').addClass('geolocation-osm-osm-processed').append(Drupal.t(', or use your browser geolocation system by clicking this link') + ': <span id="geolocation-client-location-' + i + '" class="geolocation-client-location">' + Drupal.t('My Location') + '</span>');
+            $('#geolocation-help-' + i + ':not(.geolocation-osm-osm-processed)').addClass('geolocation-osm-osm-processed').append(Drupal.t(', basta clicar em') + ': <span id="geolocation-client-location-' + i + '" class="geolocation-client-location">' + Drupal.t('Minha localização') + '</span>');
             // Set current user location, if available
             $('#geolocation-client-location-' + i + ':not(.geolocation-osm-osm-processed)').addClass('geolocation-osm-osm-processed').click(function () {
               navigator.geolocation.getCurrentPosition(function (position) {

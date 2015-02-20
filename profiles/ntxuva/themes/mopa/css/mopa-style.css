@@ -280,12 +280,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
+  color: #CEA64F;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #555555;
   text-decoration: underline;
 }
 a:focus {
@@ -2083,17 +2083,23 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #E26431;
+  border-color: #E26431;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
+/**  color: #ffffff;
   background-color: #3276b1;
-  border-color: #285e8e;
+  border-color: #285e8e; **/
+background-color: #FFFFFF;
+border-bottom-color: #E26431;
+border-left-color: #E26431;
+border-right-color: #E26431;
+border-top-color: #E26431;
+color: #E26431;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2124,17 +2130,23 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #60C29B;
+  border-color: #60C29B;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: #ffffff;
+/**  color: #ffffff;
   background-color: #47a447;
-  border-color: #398439;
+  border-color: #398439; **/
+background-color: #FFFFFF;
+border-bottom-color: #60C29B;
+border-left-color: #60C29B;
+border-right-color: #60C29B;
+border-top-color: #60C29B;
+color: #60C29B;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3646,7 +3658,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -3818,7 +3830,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   .navbar-nav > li {
@@ -3918,8 +3930,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .navbar-btn.btn-sm {
   margin-top: 9px;
@@ -4027,8 +4039,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #333333;
 }
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: #FFFFFF;
+  border-color: #C0C0C0;
 }
 .navbar-inverse .navbar-brand {
   color: #999999;
@@ -4043,6 +4055,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #999999;
+  padding-left: 35px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4052,8 +4065,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #080808;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: #FFFFFF;
+background-image: url("/profiles/ntxuva/themes/mopa/images/btn_nav_add_report.png");
+background-origin: padding-box;
+background-position: 0px -33px;
+background-repeat: no-repeat;
+background-size: auto;
+color: #585858;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-left: 35px;
+/*width: 110px;*/
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -5923,7 +5948,7 @@ body #admin-menu .dropdown li {
   }
 }
 ul.secondary {
-  float: left;
+  float: right;
 }
 @media screen and (min-width: 768px) {
   ul.secondary {
@@ -6065,12 +6090,22 @@ table tr.error {
 .nav-tabs {
   margin-bottom: 10px;
 }
-ul li.collapsed,
-ul li.expanded,
-ul li.leaf {
-  list-style: none;
-  list-style-image: none;
+
+ul li.collapsed, ul li.expanded, ul li.leaf { 
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("/profiles/ntxuva/themes/mopa/images/btn_nav_add_report.png");
+background-origin: padding-box;
+background-position: 0px 13px;
+background-repeat: no-repeat;
+background-size: auto;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-left: 15px;
 }
+
 .tabs--secondary {
   margin: 0 0 10px;
 }
@@ -6601,4 +6636,101 @@ border-color: #EEE #EEE @gray-lighter;
     left: -14px;
     right: auto;
   }
+}
+
+/*mopa*/
+
+.model-two { 
+background-attachment: fixed;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("/profiles/ntxuva/themes/mopa/images/main.png");
+background-origin: padding-box;
+background-position: 50% 0%;
+background-repeat: no-repeat;
+background-size: auto;
+min-height: 400px;
+border-top-color: #E6E6E6;
+border-top-style: solid;
+border-top-width: 1px;
+}
+
+
+.padd { 
+padding-bottom: 90px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-container { 
+margin-top: 4em;
+}
+.section-title { 
+background-attachment: scroll;
+background-clip: border-box;
+background-color: transparent;
+background-image: url("http://demo.ntxuva.org/profiles/markaspot/themes/ntxuva/images/title.png");
+background-origin: padding-box;
+background-position: 0% 0%;
+background-repeat: no-repeat;
+background-size: auto;
+color: #F15722;
+font-size: 30px;
+font-weight: 300;
+height: 30px;
+line-height: 20px;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+padding-bottom: 80px;
+padding-left: 42px;
+padding-right: 0px;
+padding-top: 0px;
+width: 80%;
+}
+
+.col-wrapper { 
+color: #FFFFFF;
+margin-bottom: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+width: 80%;
+}
+
+.custom-col { 
+color: #000000;
+float: left;
+text-align: center;
+width: 33.33%;
+}
+
+.secondary-panel .left { 
+float: left;
+margin-top: 1em;
+width: 50%;
+}
+
+.secondary-panel .right { 
+float: right;
+width: 40%;
 }

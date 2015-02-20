@@ -4,13 +4,14 @@
  * Page template for Ntxuva-Mopa
  */
 ?>
+<!--
 <header role="banner" id="page-header" class="container">
   <?php print render($page['header']); ?>
 </header> <!-- /#header -->
 
 <div class="navbar-wrapper">
-  <div class="container">
-    <div class="navbar navbar-inverse" role="navigation">
+  <!--<div class="container">-->
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <?php if ($logo): ?>
@@ -50,7 +51,7 @@
         <?php endif; ?>
       </div>
     </div>
-  </div>
+  <!--</div>-->
 </div>
 <div class="main-container container page">
 

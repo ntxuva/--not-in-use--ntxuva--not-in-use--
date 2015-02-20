@@ -606,7 +606,7 @@ function ntxuva_logic_page_alter(&$page) {
   $page['footer']['system_powered-by'] = array(
     '#weight' => -10,
     // Please be nice, give attribution:
-    '#markup' => '<span>' . t('Built with <a id="mopa-link" href="http://mark-a-spot.org">Ntxuva-Mopa</a>') . '</span>',
+    '#markup' => '<span>' . t('Built with <a id="mopa-link" href="http://www.ntxuva.org">Ntxuva</a>') . '</span>',
   );
 }
 

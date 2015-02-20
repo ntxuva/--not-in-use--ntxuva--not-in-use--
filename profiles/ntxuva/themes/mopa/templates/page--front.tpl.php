@@ -150,7 +150,7 @@
  <section>
 <div class="container">
   <div class="row">
-    <h2><span class="section-title">estatísticas</span>Grid</h2>
+    <h2><span class="section-title">estatísticas</span></h2>
    
     <hr>
 

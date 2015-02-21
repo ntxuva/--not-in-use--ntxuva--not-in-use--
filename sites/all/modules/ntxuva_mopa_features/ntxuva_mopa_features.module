@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Ntxuva-Mopa features feature.
+ */
+
+include_once 'ntxuva_mopa_features.features.inc';

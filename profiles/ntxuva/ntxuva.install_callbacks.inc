@@ -183,7 +183,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Contentor a Arder',
     'Novos',
-    'flickr_by_dancentury_garbage_collection_4585329947',
+    'IMG_20141127_090709',
   );
 
   $nodes[1] = array(
@@ -195,7 +195,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Lixo fora do contentor',
     'Novos',
-    'flickr_by_striatic_grafitti_133146861',
+    'IMG_20141127_090709',
   );
 
   $nodes[2] = array(
@@ -207,7 +207,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Camião não recolheu o contentor',
     'Resolvidos',
-    'flickr_thomopabrandt',
+    'IMG_20141127_090709',
   );
 
   $nodes[3] = array(
@@ -219,7 +219,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Tchova não passou',
     'Em progresso',
-    'flickr_jjnf_baustellenlage_ebertplatz',
+    'IMG_20141127_090709',
   );
 
   $nodes[4] = array(
@@ -231,7 +231,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Camião não recolheu o contentor',
     'Arquivados',
-    'flickr_by_mikebaird_abandoned_car_4585329947',
+    'IMG_20141127_090709',
   );
 
   $nodes[5] = array(
@@ -243,7 +243,7 @@ function _ntxuva_create_reports($operation, &$context) {
     'jjnf@ntxuva.org',
     'Contentor a Arder',
     'Resolvidos',
-    'flickr_by_realname_garbage-tonal-decay',
+    'IMG_20141127_090709',
   );
 
   foreach ($nodes as $node_data) {

@@ -74,7 +74,7 @@ function ntxuva_mopa_features_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = 'Relatórios';
-  $display->uuid = '0807-153';
+  $display->uuid = 'd9d1-153';
   $display->content = array();
   $display->panels = array();
   $display->hide_title = PANELS_TITLE_FIXED;
@@ -147,11 +147,11 @@ function ntxuva_mopa_features_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = 'Gestão de processos';
-  $display->uuid = 'd6b7-153';
+  $display->uuid = '5e47-153';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-4d3d-153';
+    $pane->pid = 'new-f997-153';
     $pane->panel = 'middle';
     $pane->type = 'node';
     $pane->subtype = 'node';
@@ -175,9 +175,9 @@ function ntxuva_mopa_features_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '4d3d-153';
-    $display->content['new-4d3d-153'] = $pane;
-    $display->panels['middle'][0] = 'new-4d3d-153';
+    $pane->uuid = 'f997-153';
+    $display->content['new-f997-153'] = $pane;
+    $display->panels['middle'][0] = 'new-f997-153';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
@@ -243,7 +243,7 @@ function ntxuva_mopa_features_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = '';
-  $display->uuid = 'f21a-153';
+  $display->uuid = '6f5e-153';
   $display->content = array();
   $display->panels = array();
   $display->hide_title = PANELS_TITLE_FIXED;

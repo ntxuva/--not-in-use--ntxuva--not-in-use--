@@ -59,16 +59,18 @@
   <a id="start" title="<?php t('Click to get the map view')?>" href="/map"></a>
   <div id="map" class="front"></div>
 </div>
--->
-<div class="model-two padd parallax-model-two"></div>
 
+<div class="model-two padd parallax-model-two"></div>
+-->
+<div><img class="img-responsive container" src="profiles/ntxuva/themes/mopa/images/main.png" alt="" ></div>
 
 
 <div class="mapheader mopathead">
   <div class="container stage">
     <div>
       <div class="col-md-12">
-        <div class="welcome-text well">
+      <!--
+       <div class="welcome-text well">
           <?php
             // If you don't want bootstrap carousel to welcome visitors
             // you can use this block:
@@ -76,6 +78,7 @@
             print render($block['content']);
           ?>
         </div>
+        -->
         <div class="welcome">
           <?php
             $block = module_invoke('ntxuva_default_content', 'block_view', 'add_reports');
@@ -177,57 +180,6 @@
 
 
 
-<div class="container main-container">
-  <div class="row">
-    <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-md-3" role="complementary">
-        <?php print render($page['sidebar_first']); ?>
-      </aside>  <!-- /#sidebar-first -->
-    <?php endif; ?>
-
-    <section class="col-md-7">
-
-      <?php if (!empty($page['highlighted'])): ?>
-        <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
-      <?php endif; ?>
-      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
-      <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header element-invisible"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
-      <?php print $messages; ?>
-      <?php if (!empty($tabs)): ?>
-        <?php print render($tabs); ?>
-      <?php endif; ?>
-      <?php if (!empty($page['help'])): ?>
-        <div class="well"><?php print render($page['help']); ?></div>
-      <?php endif; ?>
-      <?php if (!empty($action_links)): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-<!--
-      <div class="media gallery">
-        <h3>
-          <?php print t('Reports with Media'); ?>
-        </h3>
-        <?php
-          $view_name = 'Gallery';
-          print views_embed_view($view_name);
-        ?>
-      </div>
--->
-    </section>
-
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-md-4 col-md-offset-1" role="complementary">
-        <?php print render($page['sidebar_second']); ?>
-      </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
-  </div>
-  <div class="push"></div>
-</div>
 
 <footer class="footer">
   <?php print render($page['footer']); ?>

@@ -1,0 +1,12 @@
+name = Mopa-Distritos
+description = Distritos municipais
+core = 7.x
+package = Features
+version = 7.x-1.0-beta3
+project = mopa_distritos
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = distrito_bairro
+features[user_permission][] = delete terms in distrito_bairro
+features[user_permission][] = edit terms in distrito_bairro

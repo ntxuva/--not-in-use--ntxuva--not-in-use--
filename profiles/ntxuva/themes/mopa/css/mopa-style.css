@@ -6735,3 +6735,73 @@ width: 50%;
 float: right;
 width: 40%;
 }
+/*Gestão*/
+.gestao-wrapper {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    line-height: 1;
+    color: #000;
+}
+a.fill-div:hover {
+    color: #F15722;
+}
+.gestao-btn1 {
+    text-align: center;
+}
+.gestao-btn1 { 
+background-color: #FFFFFF;
+background-image: url("../images/gestao1a.png");
+background-repeat: no-repeat;
+border-bottom-color: #FFFFFF;
+border-left-color: #FFFFFF;
+border-right-color: #FFFFFF;
+border-top-color: #FFFFFF;
+float: left;
+height: 110px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+text-align: center;
+width: 110px;
+}
+.gestao-btn1:hover {
+  background-image: url(../images/gestao1b.png);
+}
+.gestao-btn2 {
+    text-align: center;
+}
+.gestao-btn2 {
+    background-image: url("../images/gestao2a.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-color: #FFF;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+.gestao-btn2:hover {
+  background-image: url(../images/gestao2b.png);
+}
+.gestao-btn3 {
+    background-image: url("../images/gestao3a.png");
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-color: #FFF;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}.gestao-btn3:hover {
+  background-image: url(../images/gestao3b.png);
+}

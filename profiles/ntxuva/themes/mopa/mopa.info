@@ -25,6 +25,7 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/mopa-style.css
 stylesheets[all][] = css/mopa.css
+stylesheets[all][] = css/charts.css
 
 
 ; For information on choosing the desired method, please read the Drupal
@@ -51,6 +52,7 @@ stylesheets[all][] = css/mopa.css
  scripts[] = 'bootstrap/js/scrollspy.js'
  scripts[] = 'bootstrap/js/tab.js'
  scripts[] = 'bootstrap/js/transition.js'
+ scripts[] = 'js/chart.min.js'
 ;
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
 settings[bootstrap_cdn] = ''

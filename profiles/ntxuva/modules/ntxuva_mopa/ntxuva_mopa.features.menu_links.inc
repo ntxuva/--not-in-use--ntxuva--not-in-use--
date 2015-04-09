@@ -15,7 +15,7 @@ function ntxuva_mopa_menu_default_menu_links() {
     'menu_name' => 'main-menu',
     'link_path' => 'node/add/report',
     'router_path' => 'node/add',
-    'link_title' => 'Report Issue',
+    'link_title' => 'Reportar',
     'options' => array(
       'attributes' => array(
         'title' => '',
@@ -32,7 +32,7 @@ function ntxuva_mopa_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Report Issue');
+  t('Reportar');
 
 
   return $menu_links;
